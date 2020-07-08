@@ -1,0 +1,411 @@
+/* 
+Theme Name: Jaime Dongo's Aweso Website
+Author: Edgar Limon
+Version: 1
+ */
+.topbar {
+  background-color: #293B70;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 15; }
+  .topbar a {
+    color: white;
+    display: inline-block;
+    padding: 6px 0px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Abril Fatface", cursive;
+    transition: all .2s ease-in-out; }
+    .topbar a:hover {
+      font-size: 20px;
+      color: #BD9120; }
+
+nav button i {
+  color: #293B70;
+  padding: 1rem;
+  font-size: 3rem; }
+
+nav img {
+  height: 100px; }
+
+nav .navbar-brand {
+  color: #1F2E57 !important;
+  font-weight: 400 !important; }
+  nav .navbar-brand:hover {
+    color: #BD9120 !important; }
+
+nav .phone-number {
+  font-weight: "Abril Fatface", cursive; }
+
+nav a.nav-link {
+  color: #1F2E57;
+  font-weight: 400 !important;
+  font-size: 20px; }
+  nav a.nav-link:hover {
+    color: #BD9120; }
+
+.page-header {
+  height: 460px;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 20px; }
+
+.page-title h1 {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.09); }
+
+.side-nav-border {
+  border-left: 3px solid rgba(0, 0, 0, 0.09); }
+
+.side-nav h3 {
+  font-size: 22px;
+  line-height: 20px;
+  padding-left: 0px !important; }
+
+.side-nav ul {
+  padding: 0;
+  list-style: none; }
+  .side-nav ul li {
+    padding-bottom: 10px; }
+    .side-nav ul li a {
+      text-decoration: underline !important;
+      color: #BD9120;
+      text-decoration: none;
+      transition: .2s all ease-in-out;
+      font-size: 16px; }
+      .side-nav ul li a:hover {
+        font-size: 18px;
+        color: #293B70; }
+
+a.heading-font {
+  font-family: "Abril Fatface", cursive;
+  color: #BD9120 !important;
+  letter-spacing: 1px;
+  font-size: 22px !important;
+  transition: all .2s ease-in-out; }
+  a.heading-font:hover {
+    color: #293B70 !important;
+    font-size: 24px !important; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+#calc #payments {
+  background-color: white;
+  border: 0px; }
+
+#calc label {
+  font-family: "Open Sans", sans-serif;
+  color: #293B70;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: .6rem; }
+
+#calc input {
+  color: #BD9120;
+  font-size: 2rem;
+  width: 100%;
+  margin-bottom: 1.2rem; }
+
+#calc .btn-calc {
+  font-size: 1rem;
+  background-color: #293B70;
+  color: white;
+  transition: all .2s ease-in-out; }
+  #calc .btn-calc:hover {
+    background-color: #1F2E57; }
+
+.overlay {
+  background-color: #1F2E57;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+.shade {
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.18); }
+
+.cursive {
+  font-family: "Aguafina Script", cursive;
+  color: #BD9120; }
+
+.break {
+  margin-bottom: 80px; }
+
+.button {
+  background-color: #BD9120;
+  border: none;
+  padding: 6px 12px;
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+  transition: all .2s ease-in-out; }
+  .button:hover {
+    background-color: #9A7517; }
+
+.btn-white {
+  color: #000;
+  background-color: #fff;
+  transition: all .2s ease-in-out;
+  border: 1px solid white; }
+  .btn-white:hover {
+    background-color: #999;
+    border: 1px solid white; }
+
+.btn-transparent {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border-radius: .25rem;
+  border: 1px solid white;
+  transition: all .2s ease-in-out; }
+  .btn-transparent:hover {
+    background-color: #fff;
+    color: #000; }
+
+body p, html p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #1F2E57;
+  line-height: 36px;
+  letter-spacing: 0; }
+  body p a, html p a {
+    text-decoration: underline !important;
+    color: #BD9120; }
+
+body h1, body h2, body h3, body h4, body h5, body h6, html h1, html h2, html h3, html h4, html h5, html h6 {
+  font-family: "Abril Fatface", cursive;
+  color: #BD9120; }
+
+body h1, html h1 {
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 5px; }
+
+body h2, html h2 {
+  font-size: 36px;
+  line-height: 44px; }
+
+body h3, body h4, body h5, body h6, html h3, html h4, html h5, html h6 {
+  font-size: 24px;
+  line-height: 32px; }
+
+body a, html a {
+  text-decoration: none;
+  color: #5D85FC;
+  transition: all .2s ease-in-out; }
+  body a:hover, html a:hover {
+    color: #293B70;
+    text-decoration: none; }
+
+body .container-fluid, html .container-fluid {
+  padding: 0px !important; }
+
+nav {
+  min-height: 100px; }
+
+header.jaime-image {
+  height: 600px;
+  background-image: url("images/jaime-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  header.jaime-image .header-content {
+    position: absolute;
+    top: 121px;
+    left: 40%;
+    padding-right: 50px; }
+    header.jaime-image .header-content .cursive {
+      font-size: 36px; }
+    header.jaime-image .header-content h1 {
+      border-bottom: 3px solid #BD9120;
+      font-size: 40px; }
+    header.jaime-image .header-content p {
+      color: white; }
+    header.jaime-image .header-content .button {
+      padding: 12px 24px; }
+
+.submission-form h3 {
+  font-size: 50px;
+  line-height: 64px;
+  color: white; }
+
+.submission-form p {
+  font-size: 12px;
+  line-height: 20px;
+  color: white; }
+
+.submission-form .overlay {
+  background-color: #293B70; }
+
+.submission-form .form-image {
+  background-image: url("images/buildings/building-3.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 7%;
+  background-position: center center; }
+
+.submission-form form {
+  padding: 20px 12px; }
+
+.image-categories .category-6 {
+  height: 436px;
+  position: relative; }
+  .image-categories .category-6 h3 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    transition: all .2s ease-in-out; }
+    .image-categories .category-6 h3:hover {
+      font-size: 38px; }
+
+.image-categories .category {
+  height: 218px;
+  position: relative; }
+  .image-categories .category h3 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    transition: all .2s ease-in-out; }
+    .image-categories .category h3:hover {
+      font-size: 38px; }
+
+.image-categories .image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 65%;
+  background-position: center top;
+  padding: 0;
+  margin: 0;
+  transition: .2s all ease-in-out; }
+  .image-categories .image:hover {
+    opacity: 45%; }
+
+.image-categories .left-image {
+  background-image: url("images/buildings/building-3.jpg");
+  background-position: center center; }
+
+.image-categories .right-top {
+  background-image: url("images/buildings/building-2.jpg");
+  background-position: center center; }
+
+.image-categories .right-bottom {
+  background-image: url("images/buildings/building-1.jpg");
+  background-position: center center; }
+
+@media only screen and (min-width: 2000px) {
+  body header.jaime-image {
+    height: 900px; }
+    body header.jaime-image .header-content {
+      top: 300px; } }
+
+@media only screen and (max-width: 768px) {
+  body .side-nav {
+    padding-top: 10px; }
+  body .image-categories .category, body .image-categories .category-6 {
+    height: 200px !important; }
+  body p {
+    font-size: 16px;
+    line-height: 34px;
+    padding: 0 12px; }
+  body h1 {
+    font-size: 30px;
+    line-height: 36px;
+    padding: 0 12px; }
+  body h2 {
+    font-size: 30px;
+    line-height: 36px;
+    padding: 0 12px; }
+  body h3, body h4, body h5, body h6 {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0 12px; }
+  body header.jaime-image {
+    height: 600px;
+    position: relative; }
+    body header.jaime-image .header-content {
+      position: absolute;
+      top: 340px;
+      left: 10%;
+      padding: 0 12px;
+      right: 0%; }
+      body header.jaime-image .header-content .cursive {
+        padding: 0 12px; }
+      body header.jaime-image .header-content h1 {
+        border-bottom: 3px solid #BD9120;
+        font-size: 30px;
+        margin-top: 0px; }
+      body header.jaime-image .header-content p {
+        display: none; }
+      body header.jaime-image .header-content .button {
+        margin-top: 10px;
+        padding: 12px 24px; }
+  body .submission-form h3 {
+    font-size: 30px;
+    line-height: 32px; }
+  body .submission-form p {
+    font-size: 12px;
+    line-height: 20px;
+    color: white; }
+  body .submission-form .overlay {
+    background-color: #293B70; }
+  body .submission-form .form-image {
+    background-image: url("images/buildings/building-3.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 7%;
+    background-position: center center; }
+  body .submission-form form {
+    padding: 20px 12px; }
+  body .submission-form button, body .submission-form .btn-transparent {
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 16px; } }
+
+@media only screen and (max-width: 420PX) {
+  body a.heading-font {
+    display: none !important; }
+  body .side-nav-border {
+    border-left: 0px solid rgba(0, 0, 0, 0.09);
+    border-top: 3px solid rgba(0, 0, 0, 0.09); }
+  body .submission-form .btn {
+    display: block !important; }
+  body header.jaime-image {
+    height: 500px;
+    background-image: url("images/jaime-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+    body header.jaime-image .header-content {
+      position: absolute;
+      top: 280px;
+      left: 0%;
+      padding-right: 0px;
+      right: 0%;
+      padding: 0 12px; }
+      body header.jaime-image .header-content h1 {
+        border-bottom: 3px solid #BD9120;
+        font-size: 30px;
+        margin-top: 0px; }
+      body header.jaime-image .header-content p {
+        display: none; }
+      body header.jaime-image .header-content .button {
+        margin-top: 10px;
+        padding: 12px 24px;
+        font-size: 14px; } }
+
+footer {
+  background-color: #293B70;
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+  footer p {
+    color: white;
+    font-size: 12px; }

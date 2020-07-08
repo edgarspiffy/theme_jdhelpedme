@@ -1,0 +1,44 @@
+.page-header {
+  height:460px;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom:20px;
+}
+
+
+.page-title {
+  h1 {
+   border-bottom:3px solid rgba(0,0,0,.09);
+  }
+}
+
+.side-nav-border {
+  border-left:3px solid rgba(0,0,0,.09);
+
+}
+
+.side-nav {
+  h3 {
+    font-size:22px;
+    line-height:20px;
+    padding-left:0px !important;
+  }
+  ul {
+    padding:0;
+    list-style: none;
+    li  {
+      padding-bottom:10px;
+      a { 
+        text-decoration:underline !important;
+        color:#BD9120;
+        text-decoration: none;
+        transition: .2s all ease-in-out;
+        font-size:16px;
+        &:hover {
+          font-size:18px;
+          color:$primary-blue;
+        }
+      }
+    }
+  }
+}

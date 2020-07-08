@@ -1,0 +1,10 @@
+# unused theme #
+JD-Helped-Me/
+
+# id for contact form differs on live site #
+jdhelpme/template-parts/contact-template.php
+
+# blocking node files #
+jdhelpme/node_modules/
+
+jdhelpme/node_modules/

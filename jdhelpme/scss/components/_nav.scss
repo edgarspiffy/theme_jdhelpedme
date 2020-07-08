@@ -1,0 +1,56 @@
+
+.topbar {
+  background-color:$primary-blue;
+  position:sticky;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 15;
+  a {
+    color:white;
+    display:inline-block;
+    padding:6px 0px;
+    font-size:18px;
+    letter-spacing: 1px;
+    font-family: $font-header;
+    transition:all .2s ease-in-out;
+    &:hover {
+      font-size:20px;
+      color:$primary-gold;
+    }
+  }
+}
+
+nav {
+ 
+  
+ 
+  button i {
+    color:$primary-blue;
+    padding:1rem;
+    font-size:3rem;
+  }
+
+  img {
+    height:100px;
+  }
+  .navbar-brand {
+    color:$font-blue !important;
+    font-weight: 400 !important;
+    &:hover {
+      color:$primary-gold !important;
+    }
+  }
+
+  .phone-number {
+    font-weight: $font-header;
+  }
+  a.nav-link {
+    color:$font-blue;
+    font-weight: 400 !important;
+    font-size:20px;
+    &:hover{
+      color:$primary-gold;
+    }
+  }
+}
