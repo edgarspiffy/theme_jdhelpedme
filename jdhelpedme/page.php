@@ -1,48 +1,19 @@
 <?php get_header();while(have_posts()){the_post();?>
 
-<?php 
-   $image = get_field('top_image');
-   if($image !== null){
-         $image = $image['url'];
-     
-     ?>
+  <!-- Banner Image Logic -->
+  <?php $image = get_field('top-image');
+        if($image !== null){
+         $image = $image['url'];?>
 
-    <!-- Top Break -->
-   
-    <div style="background-image:url('<?php echo $image?>');?>');" class="container-fluid page-header">
-    </div>
+    <!-- Top Image -->
+    <div style="background-image:url('<?php echo $image?>');?>');" class="container-fluid page-header"></div>
 
-
-<?php } else { ?>
+  <?php } else { ?>
     <div class="break"></div>
    <?php } ?> 
 
 
-   
-
-
-
-
-
-
-
-
-
-   <?php 
-   $image = get_field('banner_image');
-
-   $imageLenght =   strlen(strval($image));;
-   if($imageLenght === 0){ ?>
-    <div class="break"></div>
-   <?php 
-    } else {
-     $image = $image['url'];
-    ?>
-        <div style="background-image:url('<?php echo $image?>');?>');" class="container-fluid page-header">
-    </div>
-    <?php
-   }
-?> 
+  
 
 
 

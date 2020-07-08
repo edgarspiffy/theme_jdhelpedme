@@ -375,6 +375,9 @@ header.jaime-image {
   body .side-nav-border {
     border-left: 0px solid rgba(0, 0, 0, 0.09);
     border-top: 3px solid rgba(0, 0, 0, 0.09); }
+  body .submission-form h3 {
+    text-align: center;
+    padding-top: 1rem; }
   body .submission-form .btn {
     display: block !important; }
   body header.jaime-image {
