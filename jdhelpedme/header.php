@@ -44,9 +44,9 @@
       <li class="nav-item">
         <a class=" px-3 nav-link" href="<?php echo site_url('/about/');?>">About Jaime Dongo</a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class=" px-3 nav-link" href="<?php echo site_url('/blog/');?>">Blog</a>
-      </li>
+      </li> -->
     </ul>
   </div>
 
