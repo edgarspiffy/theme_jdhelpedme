@@ -24,7 +24,8 @@
     
     <footer>
       <div class="container">
-      <p class='p-0 m-0'>Jaime Dongo, Real Estate Consultant.</p>
+      <p class='p-0 m-0'>Jaime Dongo Real Estate Agent, DRE License #02105126</p>
+      <img class='footer-image' src="<?php echo get_theme_file_uri('/images/322022.png');?>"  alt="equal housing opportunity logo">
       </div>
     </footer>
     

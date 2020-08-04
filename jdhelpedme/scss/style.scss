@@ -478,9 +478,20 @@ footer {
   background-color:$primary-blue;
   padding:0;
   margin:0;
+  
+  padding-top:10px;
+  padding-bottom:10px;
   text-align: center;
   p {
+    padding-top:10px;
+    padding-bottom:10px;
     color:white;
-    font-size:12px;
+    font-size:16px;
+  }
+  .footer-image {
+    display:inline;
+    height:100px;
+    padding-bottom:10px;
+    padding-top:10px;
   }
 }
