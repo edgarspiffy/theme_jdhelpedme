@@ -102,21 +102,31 @@ input[type=number]::-webkit-outer-spin-button {
   color: #293B70;
   font-weight: 300;
   letter-spacing: 1px;
-  margin-bottom: .6rem; }
+  margin-bottom: .4rem; }
 
 #calc input {
   color: #BD9120;
-  font-size: 2rem;
+  font-size: 1.4rem;
   width: 100%;
-  margin-bottom: 1.2rem; }
+  margin-bottom: 1.2rem;
+  border-radius: 5px;
+  border-color: gray; }
 
 #calc .btn-calc {
   font-size: 1rem;
   background-color: #293B70;
   color: white;
+  margin-top: 5px;
   transition: all .2s ease-in-out; }
   #calc .btn-calc:hover {
     background-color: #1F2E57; }
+
+#calc table {
+  margin-top: 20px; }
+
+#calc table td {
+  padding-left: 16px;
+  font-size: 1.4rem; }
 
 .overlay {
   background-color: #1F2E57;
@@ -305,6 +315,35 @@ header.jaime-image {
       top: 300px; } }
 
 @media only screen and (max-width: 768px) {
+  body #calc #payments {
+    background-color: white;
+    border: 0px; }
+  body #calc label {
+    font-family: "Open Sans", sans-serif;
+    color: #293B70;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: .4rem; }
+  body #calc input {
+    color: #BD9120;
+    font-size: 1.4rem;
+    width: 100%;
+    margin-bottom: 1.2rem;
+    border-radius: 5px;
+    border-color: gray; }
+  body #calc .btn-calc {
+    font-size: 1rem;
+    background-color: #293B70;
+    color: white;
+    margin-top: 5px;
+    transition: all .2s ease-in-out; }
+    body #calc .btn-calc:hover {
+      background-color: #1F2E57; }
+  body #calc table {
+    margin-top: 0px; }
+  body #calc table td {
+    padding-left: 12px;
+    font-size: 1rem; }
   body .side-nav {
     padding-top: 10px; }
   body .image-categories .category, body .image-categories .category-6 {

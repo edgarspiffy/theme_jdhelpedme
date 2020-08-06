@@ -34,24 +34,33 @@ input[type=number]::-webkit-outer-spin-button {
     color:$primary-blue;
     font-weight:300;
     letter-spacing: 1px;
-    margin-bottom:.6rem;
+    margin-bottom:.4rem;
   }
   input {
     color:$primary-gold;
-    font-size:2rem;
+    font-size:1.4rem;
     width:100%;
     margin-bottom:1.2rem;
+    border-radius: 5px;
+    border-color:gray;
   }
   .btn-calc{
     font-size:1rem;
     background-color:$primary-blue;
     color:white;
+    margin-top:5px;
     transition:all .2s ease-in-out;
     &:hover {
       background-color:$font-blue;
     }
   }
-
+  table {
+    margin-top:20px;
+  }
+  table td {
+    padding-left:16px;
+    font-size:1.4rem;
+  }
 }
 
 
@@ -322,6 +331,48 @@ header.jaime-image {
 
 @media only screen and (max-width: 768px) {
   body {
+
+#calc {
+  #payments {
+    background-color:white;
+    border:0px;
+  }
+  label{
+    font-family:$font-text;
+    color:$primary-blue;
+    font-weight:300;
+    letter-spacing: 1px;
+    margin-bottom:.4rem;
+  }
+  input {
+    color:$primary-gold;
+    font-size:1.4rem;
+    width:100%;
+    margin-bottom:1.2rem;
+    border-radius: 5px;
+    border-color:gray;
+  }
+  .btn-calc{
+    font-size:1rem;
+    background-color:$primary-blue;
+    color:white;
+    margin-top:5px;
+    transition:all .2s ease-in-out;
+    &:hover {
+      background-color:$font-blue;
+    }
+  }
+   table {
+    margin-top:0px;
+  }
+  table td {
+    padding-left:12px;
+    font-size:1rem;
+  }
+}
+
+
+
 
     .side-nav {
       padding-top:10px;
